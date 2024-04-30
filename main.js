@@ -9,7 +9,7 @@ elem.forEach(function (val) {
 	});
 
 	val.addEventListener("mousemove", (dets) => {
-		val.childNodes[3].style.top = dets.y + "px";
 		val.childNodes[3].style.left = dets.x + "px";
+		// val.childNodes[3].style.top = dets.y + "px";
 	});
 });
