@@ -17,6 +17,7 @@ body {
     color: #fff;
     background-color: #222;
     position: relative;
+    overflow: hidden;
 }
 
 .element {
@@ -27,6 +28,7 @@ body {
     justify-content: flex-start;
     border-bottom: 2px solid #fff;
     position: relative;
+    cursor: pointer;
 }
 
 .element h1 {
@@ -34,7 +36,6 @@ body {
 }
 
 .element img {
-    overflow: hidden;
     width: 140px;
     height: 140px;
     object-fit: cover;
